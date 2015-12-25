@@ -49,11 +49,11 @@
 	</ul>
 	
 	<ul>
-	<a href="${pageContext.request.contextPath }/manager/dbBackUp"
+	<a href="${pageContext.request.contextPath }/manager/dbbak.jsp"
 			target="right">	备份数据库 	</a>
 	</ul>
 	<ul>
-	<a href="${pageContext.request.contextPath }/manager/dbRestore"
+	<a href="${pageContext.request.contextPath }/manager/DbServlet?method=list"
 			target="right">	恢复数据库	</a>
 	</ul>
 

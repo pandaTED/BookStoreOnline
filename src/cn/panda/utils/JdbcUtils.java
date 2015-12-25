@@ -9,13 +9,20 @@ public class JdbcUtils {
 	private static ThreadLocal<Connection> tl = new ThreadLocal<Connection>();
 
 	private static DataSource ds;
+	private static DataSource bak_ds;
+	
 
 	static {
 		ds = new ComboPooledDataSource();
+		bak_ds = new ComboPooledDataSource("bak");
 	}
 
 	public static DataSource getDataSource() {
 		return ds;
+	}
+	
+	public static DataSource getDataSource_bak(){
+		return bak_ds;
 	}
 
 	public static Connection getConnection() {

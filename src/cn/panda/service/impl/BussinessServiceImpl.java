@@ -9,6 +9,7 @@ import java.util.UUID;
 
 import cn.panda.dao.BookDao;
 import cn.panda.dao.CategoryDao;
+import cn.panda.dao.DbBakDao;
 import cn.panda.dao.OrderDao;
 import cn.panda.dao.UserDao;
 import cn.panda.dao.impl.BookDaoImpl;
@@ -23,6 +24,7 @@ import cn.panda.domain.category.Category;
 import cn.panda.domain.customer.Cart;
 import cn.panda.domain.customer.CartItem;
 import cn.panda.domain.customer.User;
+import cn.panda.domain.db.DbBak;
 import cn.panda.domain.order.Order;
 import cn.panda.domain.order.OrderItem;
 import cn.panda.factory.DaoFactory;
@@ -35,7 +37,8 @@ public class BussinessServiceImpl implements BussinessService {
 	private BookDao bdao = DaoFactory.getInstance().createDao(BookDao.class);
 	private UserDao udao = DaoFactory.getInstance().createDao(UserDao.class);
 	private OrderDao odao = DaoFactory.getInstance().createDao(OrderDao.class);
-
+	private DbBakDao ddao = DaoFactory.getInstance().createDao(DbBakDao.class); 
+	
 	/*
 	 * 分类相关service
 	 */
@@ -164,4 +167,18 @@ public class BussinessServiceImpl implements BussinessService {
 	public List listOwnOrder(User user) {
 		return odao.getOrdersByUserId(user);
 	}
+	
+	public void addDbBak(DbBak bak){
+		ddao.add(bak);
+	}
+	
+	public List getAllBak(){
+		return ddao.getAll();
+	}
+	
+	public DbBak findDbBak(String id){
+		return ddao.find(id);
+	}
+	
+	
 }

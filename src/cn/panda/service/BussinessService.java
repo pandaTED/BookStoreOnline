@@ -8,6 +8,7 @@ import cn.panda.domain.book.BookQueryInfo;
 import cn.panda.domain.category.Category;
 import cn.panda.domain.customer.Cart;
 import cn.panda.domain.customer.User;
+import cn.panda.domain.db.DbBak;
 import cn.panda.domain.order.Order;
 
 public interface BussinessService {
@@ -46,5 +47,9 @@ public interface BussinessService {
 	void updateOrders(String id, boolean state);
 
 	List listOwnOrder(User user);
+	
+	public void addDbBak(DbBak bak);
+	public List getAllBak();
+	public DbBak findDbBak(String id);
 
 }
