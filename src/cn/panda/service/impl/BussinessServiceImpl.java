@@ -32,8 +32,7 @@ import cn.panda.service.BussinessService;
 
 public class BussinessServiceImpl implements BussinessService {
 
-	private CategoryDao cdao = DaoFactory.getInstance().createDao(
-			CategoryDao.class);
+	private CategoryDao cdao = DaoFactory.getInstance().createDao(CategoryDao.class);
 	private BookDao bdao = DaoFactory.getInstance().createDao(BookDao.class);
 	private UserDao udao = DaoFactory.getInstance().createDao(UserDao.class);
 	private OrderDao odao = DaoFactory.getInstance().createDao(OrderDao.class);
@@ -53,6 +52,10 @@ public class BussinessServiceImpl implements BussinessService {
 
 	public List<Category> getAllCategory() {
 		return cdao.getAllCategory();
+	}
+	
+	public void deleteCategory(String id){
+		cdao.deleteCategory(id);
 	}
 
 	/*

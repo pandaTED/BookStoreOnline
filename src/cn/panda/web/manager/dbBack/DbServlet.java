@@ -54,9 +54,7 @@ public class DbServlet extends HttpServlet {
 		}
 		request.getRequestDispatcher("/message.jsp").forward(request, response);
 		
-		
-		
-		
+
 	}
 
 	//列出所有的备份信息

@@ -40,7 +40,14 @@ public class CategoryDaoImpl implements CategoryDao {
 	 * @see cn.panda.dao.impl.CategoryDao#deleteCategory(java.lang.String)
 	 */
 	public void deleteCategory(String id) {
-
+		try {
+			Connection conn = JdbcUtils.getConnection();
+			QueryRunner runner = new QueryRunner();
+			String sql = "delete from category where id = ?";
+			runner.update(conn, sql, id);
+		} catch (Exception e) {
+			throw new RuntimeException(e);
+		}
 	}
 
 	// 改

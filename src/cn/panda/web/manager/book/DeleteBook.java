@@ -20,13 +20,16 @@ public class DeleteBook extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
+		try{
 		String id = request.getParameter("id");
 		BussinessService bs = new BussinessServiceImpl();
 		bs.deleteBook(id);
 		request.setAttribute("message", "删除成功！！");
-		request.getRequestDispatcher("/message.jsp").forward(request, response);
 		
+		}catch(Exception e){
+			request.setAttribute("message", "删除失败！！");
+		}
+		request.getRequestDispatcher("/message.jsp").forward(request, response);
 	}
 	
 	
