@@ -1,6 +1,6 @@
 # BookStoreOnline
 	这是一个简单的在线书店项目。
-	本项目实例部署于阿里云ECS，可以点击链接查看Demo
+	本项目实例部署于阿里云ECS，地址如下：
 	[主页](http://101.200.146.66/bookstoreonline/)
 	[后台管理](http://101.200.146.66/bookstoreonline/manager.jsp)
 ##功能简介
