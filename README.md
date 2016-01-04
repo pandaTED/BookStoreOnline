@@ -28,7 +28,7 @@
 ###用到的技术
 	1.利用servlet的filter功能，设置全局的request编码为utf-8
 	2.利用servlet的filter功能，过滤每次request请求，自动提交DAO的事务
-	3.利用servlet的filter功能，将用户输入的字符进行转义，以保障系统的安全】
+	3.利用servlet的filter功能，将用户输入的字符进行转义，以保障系统的安全
 	4.DAO的管理采用工厂模式，所有的DAO交由DaoFactory管理
 ##部署时请注意
 	请在c3p0-config.xml内设置自己的数据库信息
