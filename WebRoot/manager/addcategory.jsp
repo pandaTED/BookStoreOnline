@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>添加分类</title>
 </head>
-<body style="max-width: 1260px;min-width: 780px;margin: 10px auto;">
+<body style="max-width: 1260px;min-width: 780px;margin: 10px auto;font-family:Microsoft YaHei;">
 	<form action="${pageContext.request.contextPath }/manager/categoryServlet" method="post">
 		<table width="500px">
 			<tr>

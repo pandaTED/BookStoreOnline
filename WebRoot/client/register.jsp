@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 	<%@include file="/client/head.jsp"%>
-<body style="max-width: 1260px;min-width: 780px;margin: 10px auto;" >
+<body style="max-width: 1260px;min-width: 780px;margin: 10px auto;font-family:Microsoft YaHei;" >
 	<form
 		action="${pageContext.request.contextPath }/client/register" method="post">
 		<table align="center">

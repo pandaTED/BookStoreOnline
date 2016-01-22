@@ -56,7 +56,7 @@ body {
 </style>
 </head>
 
-<body style="max-width: 1260px;min-width: 780px;margin: 10px auto;">
+<body style="max-width: 1260px;min-width: 780px;margin: 10px auto;font-family:Microsoft YaHei;">
 
 	<div id="container">
 		<div id="head">

@@ -6,7 +6,7 @@
     <title>数据库备份信息列表页面</title>
   </head>
   
-  <body style="text-align: center;">
+  <body style="text-align: center;font-family:Microsoft YaHei;">
 	<br/>
 	<table width="80%" frame="border">
 		<tr>

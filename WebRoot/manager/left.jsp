@@ -7,7 +7,7 @@
 
 </head>
 
-<body>
+<body style="font-family:Microsoft YaHei;">
 
 	<ul style="font-size: 20px">*分类管理
 	</ul>

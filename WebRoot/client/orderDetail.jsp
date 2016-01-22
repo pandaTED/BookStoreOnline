@@ -8,7 +8,7 @@
     <title>My JSP 'orderdetail.jsp' starting page</title>
   </head>
   
-  <body style="max-width: 1260px;min-width: 780px;margin: 10px auto;">
+  <body style="max-width: 1260px;min-width: 780px;margin: 10px auto;font-family:Microsoft YaHei;">
   	<%@include file="/client/head.jsp"%>
     <table border="1" style="text-align: right;" width="100%">
    		<h3>订单明细</h3>

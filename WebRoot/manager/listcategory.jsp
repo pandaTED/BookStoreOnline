@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>查看分类</title>
 </head>
-<body style="max-width: 1260px;min-width: 780px;margin: 10px auto;">
+<body style="max-width: 1260px;min-width: 780px;margin: 10px auto;font-family:Microsoft YaHei;">
 	<br /><br />
 	<table border="1" frame="border" cellpadding="0" cellspacing="0" width="90%" >
 		<caption><h2>图书分类信息管理</h2></caption>

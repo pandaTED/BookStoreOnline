@@ -6,7 +6,7 @@
     <title>My JSP 'dbbak.jsp' starting page</title>
   </head>
   
-  <body>
+  <body style="font-family:Microsoft YaHei;">
   	<form action="${pageContext.request.contextPath }/manager/DbServlet?method=bakup" method="post">
     请描述备份的原因：<br/>
     <textarea rows="5" cols="80" name="description"></textarea>

@@ -6,7 +6,7 @@
   <head>
     <title>后台书籍列表</title>
   </head>
-	<body style="max-width: 1260px;min-width: 780px;margin: 10px auto;">
+	<body style="max-width: 1260px;min-width: 780px;margin: 10px auto;font-family:Microsoft YaHei;">
    	<br/><br/>
    	
    	<table border="1" frame="border" cellpadding="0" cellspacing="0" width="90%">

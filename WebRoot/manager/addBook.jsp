@@ -6,7 +6,7 @@
     <title>添加图书</title>
   </head>
   
-  <body style="max-width: 1260px;min-width: 780px;margin: 10px auto;">
+  <body style="max-width: 1260px;min-width: 780px;margin: 10px auto;font-family:Microsoft YaHei;">
     
     <br/><br/>
     <form action="${pageContext.request.contextPath }/manager/addBook" method="post" enctype="multipart/form-data">

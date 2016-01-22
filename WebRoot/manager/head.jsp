@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>后台管理</title>
 </head>
-<body style="text-align:center;max-width: 1260px;min-width: 780px;margin: 10px auto;">
+<body style="text-align:center;max-width: 1260px;min-width: 780px;margin: 10px auto;font-family:Microsoft YaHei;">
 
 <h1 style="font-size:50px;">网上书店后台管理</h1>
 
