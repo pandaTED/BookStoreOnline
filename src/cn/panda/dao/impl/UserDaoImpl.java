@@ -6,7 +6,7 @@ import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 
 import cn.panda.dao.UserDao;
-import cn.panda.domain.customer.User;
+import cn.panda.domain.user.User;
 import cn.panda.utils.JdbcUtils;
 
 public class UserDaoImpl implements UserDao {

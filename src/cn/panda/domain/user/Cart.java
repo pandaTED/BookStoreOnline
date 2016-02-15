@@ -1,4 +1,4 @@
-package cn.panda.domain.customer;
+package cn.panda.domain.user;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

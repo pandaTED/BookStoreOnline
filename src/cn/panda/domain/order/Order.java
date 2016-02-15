@@ -4,7 +4,7 @@ import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
-import cn.panda.domain.customer.User;
+import cn.panda.domain.user.User;
 
 public class Order {
 	private String id; // 数据库存

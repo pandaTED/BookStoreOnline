@@ -10,9 +10,9 @@ import org.apache.commons.dbutils.handlers.BeanListHandler;
 
 import cn.panda.dao.OrderDao;
 import cn.panda.domain.book.Book;
-import cn.panda.domain.customer.User;
 import cn.panda.domain.order.Order;
 import cn.panda.domain.order.OrderItem;
+import cn.panda.domain.user.User;
 import cn.panda.utils.JdbcUtils;
 
 public class OrderDaoImpl implements OrderDao {

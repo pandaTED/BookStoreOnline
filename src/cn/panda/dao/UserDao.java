@@ -1,6 +1,6 @@
 package cn.panda.dao;
 
-import cn.panda.domain.customer.User;
+import cn.panda.domain.user.User;
 
 public interface UserDao {
 

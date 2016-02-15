@@ -21,12 +21,12 @@ import cn.panda.domain.book.BookPageBean;
 import cn.panda.domain.book.BookQueryInfo;
 import cn.panda.domain.book.BookQueryResult;
 import cn.panda.domain.category.Category;
-import cn.panda.domain.customer.Cart;
-import cn.panda.domain.customer.CartItem;
-import cn.panda.domain.customer.User;
 import cn.panda.domain.db.DbBak;
 import cn.panda.domain.order.Order;
 import cn.panda.domain.order.OrderItem;
+import cn.panda.domain.user.Cart;
+import cn.panda.domain.user.CartItem;
+import cn.panda.domain.user.User;
 import cn.panda.factory.DaoFactory;
 import cn.panda.service.BussinessService;
 

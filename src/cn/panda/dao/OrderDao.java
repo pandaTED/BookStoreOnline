@@ -2,8 +2,8 @@ package cn.panda.dao;
 
 import java.util.List;
 
-import cn.panda.domain.customer.User;
 import cn.panda.domain.order.Order;
+import cn.panda.domain.user.User;
 
 public interface OrderDao {
 

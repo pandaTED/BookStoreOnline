@@ -8,8 +8,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import cn.panda.domain.customer.Cart;
-import cn.panda.domain.customer.User;
+import cn.panda.domain.user.Cart;
+import cn.panda.domain.user.User;
 import cn.panda.service.BussinessService;
 import cn.panda.service.impl.BussinessServiceImpl;
 
